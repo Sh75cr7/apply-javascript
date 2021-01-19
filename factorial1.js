@@ -1,0 +1,15 @@
+/*var factorial=1;
+for (var i=1; i<=10; i++){
+    factorial=factorial*i;
+    console.log(i,factorial);
+}*/
+function factorial(n){
+    var factorial=1;
+for (var i=1; i<=n; i++){
+    factorial=factorial*i;
+    console.log(i,factorial);
+}
+return factorial;
+}
+var resulat=factorial(5);
+console.log(resulat);
